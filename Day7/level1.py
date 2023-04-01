@@ -12,3 +12,6 @@ print(it_companies)
 print(it_companies)
 it_companies.pop()
 print(it_companies)
+
+#Remove method will raise errors if the desired item does not exist, however discard will not.
+
