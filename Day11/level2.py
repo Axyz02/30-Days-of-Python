@@ -23,4 +23,3 @@ def is_empty(param):
         return False
 
 print(is_empty(2))
-

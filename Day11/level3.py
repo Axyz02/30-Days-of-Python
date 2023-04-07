@@ -87,3 +87,4 @@ def most_populated_countries(num_countries=10):
     sorted_countries = sorted(countries_data.countries, key=lambda x: x["population"], reverse=True)
 
     return [country["name"] for country in sorted_countries[:num_countries]]
+1
